@@ -3,4 +3,6 @@
 
 # /bin/echo -e '\033[1;32mIn .bash/interactive.d/90-atuin.bash\033[0m'
 
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+
 eval "$(atuin init bash)"
