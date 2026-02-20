@@ -1,9 +1,10 @@
 ^README\.md
 ^docs
 ^LICENSE
+^LICENSE\.md
 /\.git
 /\.gitmodules
 /\.gitignore
-\.gitkeep
-\.bak
-.*\#
+.*\.gitkeep
+.*\.bak
+.*\#.*
